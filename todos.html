@@ -14,7 +14,7 @@
   <title>Stay-Organized-workshop</title>
 </head>
 
-<body class="text-center img-fluid bg-dark" >
+<body class="text-center img-fluid bg-dark">
   <header>
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
@@ -30,10 +30,10 @@
               <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="todo.html">Todo</a>
+              <a class="nav-link" href="todos.html">Todo</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="new-todo.html">New Todo</a>
+              <a class="nav-link" href="new_todo.html">New Todo</a>
             </li>
 
           </ul>
@@ -46,19 +46,24 @@
     <section class="bg-dark text-light p-5">
 
       <div class="container">
+        <form id="myForm">
 
-        <div class="row align-items-center justify-content-between">
-          <div class="col-md">
 
-            <select id="mainDropdown" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-              
-            </select>
-            
+          <div class="row align-items-center justify-content-between">
+            <div class="col-md">
 
-            <div id="outputInf"></div>
+              <select id="mainDropdown" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+
+              </select>
+
+
+              <div class="mt-3" id="outputInf"></div>
+            </div>
+
           </div>
 
-        </div>
+        </form>
+
 
       </div>
     </section>
@@ -67,28 +72,28 @@
 
 
   </main>
-  
+
 
 
   <!-- footer -->
-  <footer class="py-3 my fixed-bottom text-center  bg-light">
-    
+  <footer class="py-3 my fixed-bottom  bg-light">
 
-          <div class="container">
+
+    <div class="container">
       <p class="lead">
         Copyright &copy;2022 YearUp Appdev Stay-Organized-workShop LCJ_Ibh
       </p>
 
     </div>
-   
-  
+
+
   </footer>
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
     </script>
-  <script src="/scripts/main.js"></script>
+  <script src="/scripts/todos.js"></script>
 </body>
 
 </html>
